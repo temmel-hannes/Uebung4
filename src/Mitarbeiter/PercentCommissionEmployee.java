@@ -1,6 +1,6 @@
 package Mitarbeiter;
 
-public class PercentCommissionEmployee extends Empleyee {
+public class PercentCommissionEmployee extends Employee {
     protected double percentCommission;
 
     public PercentCommissionEmployee(String lastname, String firstname, String department, double baseSalary, double percentCommission) {

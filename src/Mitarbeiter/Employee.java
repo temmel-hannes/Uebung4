@@ -1,12 +1,12 @@
 package Mitarbeiter;
 
-public class Empleyee {
+public class Employee {
     protected String lastname;
     protected String firstname;
     protected String department;
     protected double baseSalary;
 
-    public Empleyee(String lastname, String firstname, String department, double baseSalary) {
+    public Employee(String lastname, String firstname, String department, double baseSalary) {
         this.lastname = lastname;
         this.firstname = firstname;
         this.department = department;
